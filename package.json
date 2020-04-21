@@ -1,0 +1,30 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "Node JS Web backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skrabby/nodejs_server.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Duc Truong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skrabby/nodejs_server/issues"
+  },
+  "homepage": "https://github.com/skrabby/nodejs_server#readme",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
